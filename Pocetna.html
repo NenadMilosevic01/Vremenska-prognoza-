@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function vreme(value)
+{
+	var p="https://naslovi.net/vremenska-prognoza/"+value;
+	document.getElementById("demo").src =p;
+}
+</script>
+
+	<script<script src="javascript.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Vremenska prognoza</h1>
+
+<select id="x" onchange="vreme(value)">
+	<option value="pancevo">Pancevo       </option>
+	<option value="beograd">Beograd       </option>
+	<option value="sombor">Sombor         </option>
+	<option value="zrenjanin">Zrenjanin   </option>
+	<option value="novi-sad">Novi Sad     </option>
+	<option value="nis">Nis               </option>
+	<option value="kraljevo">Kraljevo     </option>
+	<option value="kragujevac">Kragujevac </option>
+	<option value="vranje">Vranje		  </option>
+	<option value="pirot">Pirot			  </option>
+</select>
+
+<iframe id="demo" src="https://naslovi.net/vremenska-prognoza/pancevo"><iframe>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
